@@ -1,0 +1,92 @@
+body{
+   text-align:center; /* alinhamento do texto: central*/
+   font-family:Open Sans,sans-serif; /* fonte principal, Open Sans. Se nao estiver disponivel, use a Sans Serif*/
+   background-color:#8a71c9;
+   color:#ffffff;
+   margin: 0px 0px 30px 0px; /* margem superior e inferior 0 e margens laterais 0*/
+ }
+
+ h2{
+    color: #2A0074;
+    font-size: 40px;
+ }
+
+ /* quando coloca um ponto antes do nome, significa que é uma classe */
+
+ .titulo-verde{
+    color: #04FF9F;
+ }
+
+ .titulo-vermelho{
+    color: #FF9E9E;
+ }
+
+ .titulo-amarelo{
+    color:#ffe36d;
+ }
+ section{
+    width: 60%; /* limite da largura, para adaptar aos diversos tamanhos de tela*/
+    margin:0 auto; /*margem superior e inferior 0 e margens laterais automáticas*/
+}
+
+section section{ /* uma seção dentro de outra seção*/
+    width: 100%;
+}
+
+h1{
+  font-size: 60px;
+  font-weight: 300; /*grossura da fonte*/
+}
+
+h3{
+  font-size:22px;
+  font-style: italic; /*Ajustar a fonte para itálico */
+}
+
+
+p{
+  line-height: 1.5; /*altura das linhas de todos os parágrafos*/
+  font-size: 20px;
+}
+
+img{
+  width: 100%; /*largura das imagens*/
+}
+
+ul{ /*ul é a tag de lista não ordenada*/
+    list-style-type: none; /*nenhum marcador da lista*/
+    line-height: 2;
+    padding-left: 0px;
+}
+
+a{ /* "a" é a tag dos links*/
+    color: #99ffff; /*cor dos links*/
+    text-decoration: none; /*sem sublinhado nos links*/
+    font-weight: 700; /*grossura da fonte dos links*/
+}
+
+.principal{
+    background: #ff6cb5;
+    height:40px;
+    max-width: 60%; /*largura máxima da classe principal*/
+    margin: 0 auto; /*margem superior e inferior 0 e margens laterais automáticas*/
+}
+
+.principal a{
+    color:#fff; /*cor dos links dentro da classe principal*/
+    text-decoration:underline; /*texto em underline*/
+    font-weight: normal;
+}
+
+.principal li{ /* configurando os itens da classe principal*/
+    display: inline-block; /*para que o link ocupe apenas o espaço necessário*/
+    line-height: 2.5;
+    margin: 0 89px; /*margem superior e inferior 0 e margens laterais de 20px*/
+}
+
+button{
+    background: #41f341;
+    border: 1px solid transparent; /*borda transparente*/
+    padding: 2px 20px; /*preenchimento interno do botão*/
+    border-radius: 3px; /*bordas arredondadas do botão*/
+}
