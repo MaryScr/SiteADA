@@ -67,9 +67,10 @@ a{ /* "a" é a tag dos links*/
 
 .principal{
     background: #ff6cb5;
-    height:40px;
+    height: auto; /* Deixe a altura crescer conforme necessário */
     max-width: 60%; /*largura máxima da classe principal*/
     margin: 0 auto; /*margem superior e inferior 0 e margens laterais automáticas*/
+    padding: 10px 0; /* Espaçamento interno*/
 }
 
 .principal a{
