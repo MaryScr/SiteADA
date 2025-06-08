@@ -1,4 +1,4 @@
-document.getElementById("botaoEnviar").addEventListener("click", validaFormulario)
+document.getElementById("botao-enviar").addEventListener("click", validaFormulario)
 
 function validaFormulario(){
   if(document.getElementById("nome").value != ""
